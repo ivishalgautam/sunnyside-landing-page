@@ -27,7 +27,7 @@ section1_textContent.forEach((item) => {
     trigger: item,
     start: "top center",
     end: "bottom center",
-    markers: true,
+    // markers: true,
     onEnter: () => {
       gsap.to(item, { opacity: 1, x: 0 });
     },
@@ -43,7 +43,7 @@ services_textContent.forEach((item) => {
     trigger: item,
     start: "top center",
     end: "bottom center",
-    markers: true,
+    // markers: true,
     onEnter: () => {
       gsap.to(item, { opacity: 1, y: 0 });
     },
@@ -57,7 +57,7 @@ testimonials.forEach((item) => {
     trigger: item,
     start: "top center",
     end: "bottom center",
-    markers: true,
+    // markers: true,
     onEnter: () => {
       gsap.to(item, { opacity: 1, y: 0, stagger: 0.2 });
     },
